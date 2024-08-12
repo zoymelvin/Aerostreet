@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".Men">
+
+    <LinearLayout
+        android:background="#FFFFFFFF"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:id="@+id/rvx8jexp9e3"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:fillViewport="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/ryb6bmz50co"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFFFF"
+                    android:paddingTop="16dp"
+                    android:paddingBottom="6dp"
+                    android:paddingLeft="27dp"
+                    android:paddingRight="17dp"
+                    android:elevation="4dp"
+                    android:clipChildren="false"
+                    android:clipToPadding="false"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/rkdgqt9el4tq"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="35dp"
+                        android:clipChildren="false"
+                        android:clipToPadding="false"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:id="@+id/rb4ns73ckxmv"
+                            android:layout_width="35dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:layout_marginEnd="15dp"
+                            android:clipChildren="false"
+                            android:clipToPadding="false"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:id="@+id/sidebarTrigger"
+                                android:layout_width="match_parent"
+                                android:layout_height="35dp"
+                                android:layout_marginTop="8dp"
+                                android:src="@drawable/menu"
+                                android:scaleType="fitXY"/>
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/ra7xwggedtt5"
+                            android:textColor="#000000"
+                            android:textSize="20sp"
+                            android:layout_marginTop="16dp"
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:text="Shop"/>
+
+                        <LinearLayout
+                            android:id="@+id/rt7rxps2i3md"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:clipChildren="false"
+                            android:clipToPadding="false"
+                            android:orientation="vertical"/>
+
+                        <ImageView
+                            android:id="@+id/rix77byqdvz"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_marginTop="12dp"
+                            android:layout_marginEnd="15dp"
+                            android:src="@drawable/search_normal"
+                            android:scaleType="fitXY"/>
+
+                        <ImageView
+                            android:id="@+id/chart"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_marginTop="10dp"
+                            android:src="@drawable/bag_2"
+                            android:scaleType="fitXY"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/r6vn62q11g8v"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:clipChildren="false"
+                        android:clipToPadding="false"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/rav58w1e9ieh"
+                            android:textColor="#000000"
+                            android:textSize="20sp"
+                            android:layout_marginEnd="4dp"
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:layout_weight="1"
+                            android:text="Men"/>
+
+                        <TextView
+                            android:id="@+id/women"
+                            android:textColor="#000000"
+                            android:textSize="20sp"
+                            android:layout_marginEnd="59dp"
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:text="Women"/>
+
+                        <TextView
+                            android:id="@+id/kids"
+                            android:textColor="#000000"
+                            android:textSize="20sp"
+                            android:layout_marginEnd="57dp"
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:text="Kids"/>
+
+                        <TextView
+                            android:id="@+id/hot"
+                            android:textColor="#000000"
+                            android:textSize="20sp"
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:text="Hot"/>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/rchfr7g7gy9u"
+                    android:layout_width="41dp"
+                    android:layout_height="1dp"
+                    android:background="#FF000000"
+                    android:layout_marginBottom="21dp"
+                    android:layout_marginHorizontal="27dp"
+                    android:clipChildren="false"
+                    android:clipToPadding="false"
+                    android:orientation="vertical"/>
+
+                <TextView
+                    android:id="@+id/ryxjoeh7mn"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:layout_marginBottom="19dp"
+                    android:layout_marginStart="25dp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="This Weeks’s Highlight"/>
+
+                <HorizontalScrollView
+                    android:id="@+id/rv7hfyymjzo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="13dp"
+                    android:layout_marginBottom="12dp"
+                    android:clipChildren="false"
+                    android:clipToPadding="false"
+                    android:fillViewport="true"
+                    tools:ignore="SpeakableTextPresentCheck">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:clipChildren="false"
+                        android:clipToPadding="false"
+                        android:orientation="horizontal">
+
+                        <com.google.android.material.imageview.ShapeableImageView
+                            android:id="@+id/riocu6bac2r8"
+                            android:layout_width="152dp"
+                            android:layout_height="150dp"
+                            android:layout_marginTop="1dp"
+                            android:layout_marginEnd="5dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/imagear1"/>
+
+                        <com.google.android.material.imageview.ShapeableImageView
+                            android:id="@+id/r1otu6b94fqc"
+                            android:layout_width="152dp"
+                            android:layout_height="150dp"
+                            android:layout_marginTop="1dp"
+                            android:layout_marginEnd="5dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/imagear1"/>
+
+                        <com.google.android.material.imageview.ShapeableImageView
+                            android:id="@+id/r659tyvq1mlf"
+                            android:layout_width="152dp"
+                            android:layout_height="150dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/imagear1"/>
+                    </LinearLayout>
+                </HorizontalScrollView>
+
+                <LinearLayout
+                    android:id="@+id/rnqtt7781uh"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:layout_marginBottom="41dp"
+                    android:clipChildren="false"
+                    android:clipToPadding="false"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/rhaik4yeyzph"
+                        android:textColor="#000000"
+                        android:textSize="14sp"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="Aerostreet Men"/>
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"/>
+
+                    <TextView
+                        android:id="@+id/rlxrm8yo38"
+                        android:textColor="#000000"
+                        android:textSize="14sp"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="Aerostreet Men"/>
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"/>
+
+                    <TextView
+                        android:id="@+id/rrlfrkagebl"
+                        android:textColor="#000000"
+                        android:textSize="14sp"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="Aerostreet Men"/>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/rjl0icguuxr"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:layout_marginBottom="24dp"
+                    android:layout_marginStart="22dp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="Authoritative Men's Style"/>
+
+                <LinearLayout
+                    android:id="@+id/reapw6fntiyj"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bannermen"
+                    android:paddingLeft="294dp"
+                    android:paddingRight="13dp"
+                    android:layout_marginBottom="36dp"
+                    android:elevation="4dp"
+                    android:clipChildren="false"
+                    android:clipToPadding="false"
+                    android:orientation="vertical"/>
+
+                <TextView
+                    android:id="@+id/rhyt2bq7gd2s"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginStart="23dp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="Beach"/>
+
+                <HorizontalScrollView
+                    android:id="@+id/rqw19cf7h7j"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginBottom="11dp"
+                    android:clipChildren="false"
+                    android:clipToPadding="false"
+                    android:fillViewport="true"
+                    tools:ignore="SpeakableTextPresentCheck">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:clipChildren="false"
+                        android:clipToPadding="false"
+                        android:orientation="horizontal">
+
+                        <com.google.android.material.imageview.ShapeableImageView
+                            android:id="@+id/rjwumc2yjiji"
+                            android:layout_width="151dp"
+                            android:layout_height="150dp"
+                            android:layout_marginEnd="7dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/beach"/>
+
+                        <com.google.android.material.imageview.ShapeableImageView
+                            android:id="@+id/ruwvtjuyy5fk"
+                            android:layout_width="151dp"
+                            android:layout_height="150dp"
+                            android:layout_marginEnd="6dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/beach"/>
+
+                        <com.google.android.material.imageview.ShapeableImageView
+                            android:id="@+id/r949iuh165lr"
+                            android:layout_width="151dp"
+                            android:layout_height="150dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/beach"/>
+                    </LinearLayout>
+                </HorizontalScrollView>
+
+                <LinearLayout
+                    android:id="@+id/rewlxi302btf"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:clipChildren="false"
+                    android:clipToPadding="false"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/rq2a13dida4"
+                        android:textColor="#000000"
+                        android:textSize="15sp"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="Aerostreet Beach"/>
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"/>
+
+                    <TextView
+                        android:id="@+id/r5wlajda63eg"
+                        android:textColor="#000000"
+                        android:textSize="15sp"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="Aerostreet Beach"/>
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"/>
+
+                    <TextView
+                        android:id="@+id/rv3ugyznn2qg"
+                        android:textColor="#000000"
+                        android:textSize="15sp"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="Aerostreet Beach"/>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <include layout="@layout/sidebar"
+        android:layout_width="280dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"/>
+</androidx.drawerlayout.widget.DrawerLayout>

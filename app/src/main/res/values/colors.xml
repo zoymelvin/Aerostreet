@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primarycolor">#293F66</color>
+    <color name="secondcolor">#1F41BB</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="background">#EEEEEE</color>
+    <color name="LogOut">#C54040</color>
+</resources>
